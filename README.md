@@ -1,5 +1,7 @@
 # 💪 About Fitness – Gym Management System
 
+![Gym Management System Banner](img/gym_banner.png)
+
 Welcome to **About Fitness**, a premium and feature-rich Gym Management System. This project is built to streamline gym operations, member administration, attendance logging, and invoicing.
 
 It is available in two modes:
