@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Member Workouts">
+    <meta name="author" content="Vijay Mahes">
+    <title>About Fitness - Workouts</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="boot/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="boot/css/main.css" rel="stylesheet">
+    <link href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">About Fitness</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav" id="nav-links">
+            <!-- Dynamic via static-demo.js -->
+          </ul>
+          <div id="nav-auth">
+            <!-- Dynamic via static-demo.js -->
+          </div>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h2>My Workouts Routine</h2>
+        <div class="row" style="background-color: white; padding: 25px; border-radius: 10px;">
+          <div class="col-md-7">
+            <h4>Daily Schedule</h4>
+            <ul class="list-group" id="workout-list">
+              <!-- Rendered via static-demo.js -->
+            </ul>
+          </div>
+          <div class="col-md-5" style="border-left: 1px solid #eee;">
+            <h4>Add New Workout Detail</h4>
+            <form id="workout-add-form">
+              <div class="form-group">
+                <input type="text" class="form-control" id="workout-detail" placeholder="e.g. Monday: Bench Press 3x10" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Add Routine</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; Vijay Mahes</p>
+      </footer>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="boot/js/bootstrap.min.js"></script>
+    <script src="boot/js/static-demo.js"></script>
+  </body>
+</html>
