@@ -34,6 +34,23 @@ Experience the frontend and admin capabilities instantly without any local datab
 - **Attendance Registry**: Mark users present or absent to dynamically calculate attendance logs.
 - **Billing & Invoice Generator**: Process subscription payments and instantly generate downloadable invoice receipts.
 
+
+---
+
+## 📸 Gallery & Features
+
+| 🏃‍♂️ Cardio Center | 💪 Strength Training | 🧘‍♀️ Aerobics |
+| :---: | :---: | :---: |
+| ![Cardio](img/cardio.png) | ![Strength](img/strength.png) | ![Aerobics](img/aerobics.png) |
+
+## 📱 App Screenshots
+
+<p align="center">
+  <img src="img/wp_ss_20140416_0002.png" width="30%" alt="Dashboard Screenshot" style="border-radius: 8px; margin: 5px;" />
+  <img src="img/wp_ss_20140416_0003.png" width="30%" alt="Workouts Schedule Screenshot" style="border-radius: 8px; margin: 5px;" />
+  <img src="img/wp_ss_20140416_0004.png" width="30%" alt="Attendance Logs Screenshot" style="border-radius: 8px; margin: 5px;" />
+</p>
+
 ---
 
 ## 🛠️ Technology Stack
